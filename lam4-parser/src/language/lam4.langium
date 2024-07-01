@@ -419,7 +419,7 @@ TypeAnnot:
     CustomTypeDef | BuiltinType
 ;
 CustomTypeDef:
-    label = [CustomType:ID]
+    annot = [CustomType:ID]
 ;
 
 // type Rule = FunDecl | PredicateDecl;
